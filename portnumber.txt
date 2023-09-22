@@ -1,0 +1,5 @@
+8888 -- config
+8761 -- discovery
+9000 -- accountservice
+9001 -- cutomerserivce
+
