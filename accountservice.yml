@@ -27,7 +27,7 @@ eureka:
       serviceUrl:
         defaultZone: http://localhost:8761/eureka/
 customProperty:
-   test: Disha123
+   test: Disha
 management:
   endpoints:
     web:
