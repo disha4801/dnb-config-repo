@@ -6,7 +6,7 @@ spring:
       maximum-pool-size: 5
     password: root
     url: jdbc:mysql://localhost:3306/account
-    username: root
+    username: newroot
   jpa:
     hibernate:
       ddl-auto: update
