@@ -20,11 +20,11 @@ spring:
       - id: CUSTOMERSERVICE
         uri: lb://CUSTOMERSERVICE
         predicates:
-          - Path=/api/customer/**
+          - Path=/customer/**
       - id: ACCOUNTSERVICE
         uri: lb://ACCOUNTSERVICE
         predicates:
-          - Path=/api/account/**           
+          - Path=/account/**           
         
         
 
