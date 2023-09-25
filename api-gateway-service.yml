@@ -13,4 +13,18 @@ management:
     web:
       exposure:
         include: *
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: CUSTOMERSERVICE
+        uri: lb://CUSTOMERSERVICE
+        predicates:
+          - Path=/api/customer/**
+      - id: ACCOUNTSERVICE
+        uri: lb://ACCOUNTSERVICE
+        predicates:
+          - Path=/api/account/**           
+        
+        
 
