@@ -5,7 +5,7 @@ spring:
       connection-timeout: 6000
       maximum-pool-size: 5
     password: root
-    url: jdbc:mysql://localhost:3306/customer
+    url: jdbc:mysql://localhost:3306/customer?createDatabaseIfNotExist=true
     username: root
   jpa:
     hibernate:
