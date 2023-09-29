@@ -31,8 +31,8 @@ spring:
           - Path=/authenticate/**
 jwt:
   secret: mySecretKey
-  expireMs: 1200
-  refrEshexpireMs: 1200          
+  expireMs: 120000
+  refrEshexpireMs: 120000          
           
         
         
